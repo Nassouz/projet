@@ -1,15 +1,33 @@
 body {
     background-size: cover;
-    background: linear-gradient(rgba(230, 225, 225, 0.541), rgba(210, 105, 30, 0.767)), url("image/fondecran.jpg") center fixed;
+    background: linear-gradient(rgba(223, 106, 10, 0.699), rgba(247, 161, 1, 0.76)), url("image/fondecran.jpg") center fixed;
 }
 
 #banniere {
     display: flex;
     justify-content:space-around;
-    border: solid;
-    border-color: rgba(255, 106, 0, 0.267);
-    border-radius: 4px;
+    border: 0px solid;
+    border-color: rgba(223, 106, 10, 0.034);
+    border-radius: 5px;
+    box-shadow: 16px 12px 16px 12px rgba(0,0,0,0.24), 50px 17px 50px 17px rgba(0,0,0,0.19);
 }
+
+.button {
+    font-size: 18px;
+    background-color: rgba(241, 130, 4, 0);
+    border: solid;
+    border-color: rgba(241, 130, 4, 0);
+    border-radius: 10%;
+    border-width: 8px;
+
+}
+
+.button:hover {
+    transition: step-start;
+    transition-duration: 0.4s;
+    background-color: rgba(241, 130, 4, 0.938);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
 
 .navbar {
     display: flex;
@@ -30,14 +48,21 @@ a {
 }
 
 #titre {
+    
     text-align: center;
+    font-size: large;
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 5%;
     color: cornsilk;
     background-image: url("image/banniere_developpeur.png");
-    border: solid;
-    border-radius: 4px;
-    border-color: rgba(255, 106, 0, 0.267);
+    border: 0px solid;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border-color: rgba(255, 106, 0, 0.11);
 
+}
+
+#texte {
+    margin: 15%;
+    text-align: center;
 }
