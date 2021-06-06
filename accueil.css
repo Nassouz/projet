@@ -1,35 +1,32 @@
 body {
     background-size: cover;
-    background: linear-gradient(rgba(0, 0, 0, 0.397), rgba(241, 130, 4, 0.938)), url("image/fondecran.jpg") center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.397), rgba(209, 96, 20)), url("image/fondecran.jpg") center fixed;
 }
-
 #banniere {
     display: flex;
     justify-content:space-around;
     border: 0px solid;
     border-color: rgba(223, 106, 10, 0);
     border-radius: 10px 10px 10px 10px;
-    box-shadow: 16px 12px 16px 12px rgba(0,0,0,0.24), 50px 17px 50px 17px rgba(0,0,0,0.19);
+    box-shadow: 16px 12px 16px 12px rgba(0, 0, 0, 0.103), 50px 17px 50px 17px rgba(0, 0, 0, 0.19);
 }
-
 .button {
     font-size: 18px;
-    background-color: rgba(241, 130, 4, 0);
+    background: rgba(81, 80, 82, 0.61);
     border: 0px solid;
-    border-color: rgba(241, 130, 4, 0);
+    border-color: rgba(81, 80, 82, 0);
     border-radius: 10px 10px 10px 10px;
     border-width: 8px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 
 }
-
 .button:hover {
+    background: rgb(81, 80, 82);
     transition: step-start;
     transition-duration: 0.4s;
     transform: scale(1.4);
-    background-color: linear-gradient(rgb(0, 0, 0) rgb(241, 130, 4));
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  }
-
+    box-shadow: 0 12px 16px 0 rgba(255, 252, 252, 0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
 .navbar {
     display: flex;
     font-size: 130%;
@@ -42,20 +39,18 @@ body {
     padding: 15px;
     
 }
-
 a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 250);
 }
-
 #titre {
-    
+    background: rgba(81, 80, 82, 0.534);
     text-align: center;
     font-size: large;
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 5%;
-    color: cornsilk;
+    color: rgb(255, 255, 250);
 /*     background-image: url("image/banniere_developpeur.png");
  */    border: 0px solid;
     border-radius: 10px 10px 10px 10px;
@@ -63,14 +58,13 @@ a {
     border-color: rgba(255, 106, 0, 0.11);
 
 }
-
 #texte {
+    color:rgb(255, 255, 250);
     margin: 10%;
     text-align: center;
 }
-
-
 footer {
+    color:rgb(255, 255, 250);
     text-align: center;
     color:cornsilk;
 }
